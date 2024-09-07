@@ -1,0 +1,43 @@
+.orderLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px ;
+    margin: 2% 20%;
+    padding: 0% 0%;
+}
+
+.orderLine img{
+    width: 100px;
+    border-radius: 10px ;
+}
+
+.imageANDtext{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.priceQuantity{
+    display: flex;
+    gap: 20px;
+}
+
+.OrderProductName{
+    width: 100%; 
+    font-size: 27px;
+    text-align: left;
+}
+
+.TotalOrder{
+    display: flex;
+    position: relative;
+    margin-right:10px;
+    font-size: 20px;
+}
+
+.nameQuantityPrice{
+    margin-left: 10px;
+}

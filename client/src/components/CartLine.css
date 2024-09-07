@@ -1,0 +1,64 @@
+.cartLine{
+  display:flex;
+  align-items: center; 
+  gap: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 10px ;
+  margin: 5% 0%;
+  padding: 0% 0%;
+}
+
+.cartLine img{
+  width: 90px;
+  border-radius: 10px ;
+}
+
+.priceQtyLine{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.upDown{
+  background-color:rgb(255, 255, 255);
+  border: none;
+  padding: 2% 4%;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cartLineProductName{
+  width: 200px; 
+  font-size: 22px;
+  text-align: left;
+}
+
+.TotalCartLine{
+  font-size: 16px;
+}
+
+.deleteCartLine {
+  background-color:rgb(255, 255, 255);
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 0px 10%;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteCartLine:hover{
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 166, 106);
+}
+
+.totalANDdelete{
+  position: relative;
+  padding-left: 5%;
+}
+
+.cartLinePrice{
+  margin-left: 8%;
+}

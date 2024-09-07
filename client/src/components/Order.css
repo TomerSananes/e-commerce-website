@@ -1,0 +1,95 @@
+.orderContent{
+    margin-top: 120px;
+}
+
+.ULOrderProduct{
+    padding-left: 0px;
+}
+
+h1{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.costumerInfo{
+    padding: 0% 20%;
+}
+
+select, input {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+select:hover ,input:hover{
+    border: 2px solid green;
+}
+
+option{
+    text-align: center;
+}
+
+.inputsSpan, .firstDiv, .lastDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 0.8%;
+}
+
+.firstLastInputs{
+    display: flex;
+    flex-wrap: wrap; /* gives input the option to get line down if the page is not big enough*/
+    justify-content: center; 
+    padding: 0;
+    gap: 20px;
+}
+
+.firstDiv, .lastDiv{
+    flex: 1 1 calc(50% - 20px); /* calculate to create that each input will take aboute 1/2 of the row */
+}
+
+.Error{
+    margin-top: 0.3%;
+    color: rgb(220, 0, 0);
+}
+
+.orderMessage{
+    word-wrap: break-word; /* if there in no enough space for the message break the word*/
+    margin-top: 20%;
+    margin-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:34px ;
+}
+
+#completePurchase, .startShoppingOrder {
+    position: flexbox;
+    align-content: center;
+    background-color:rgb(0, 0, 0);
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#completePurchase:hover , .startShoppingOrder:hover{
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 166, 106);
+}
+
+.startShoppingOrder{  
+    font-size: 22px;
+    padding: 5px 50px;
+    text-decoration: none;
+}

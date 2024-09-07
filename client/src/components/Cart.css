@@ -1,0 +1,77 @@
+.cartBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+  padding: 0% 0%;
+  overflow-y: auto; /*gives an auto scroll when there are enough items for it*/
+  z-index: 1000; 
+}
+
+.emptyCart{
+  margin-top: 80%;
+  font-size:30px ;
+  margin-bottom: 4%;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.cartContent{
+  margin-bottom: 40px;
+}
+
+.cartHeadline{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.yourCart{
+  font-size:25px;
+  font-family: sunserif;
+}
+
+.cartCloseButton{
+  cursor: pointer;
+  margin-left: 66%;
+  font-size: 25px;
+  border: none;
+  background-color: white
+}
+  
+.startShopping, .checkoutButton{
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 166, 106);
+  text-decoration: none;
+  padding: 5px 80px;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.startShopping:hover, .checkoutButton:hover{
+  background-color:rgb(167, 167, 167);
+  border: 1px solid rgb(255, 255, 255 );
+  color: rgb(255, 255, 255);
+}
+
+.startShopping{
+  font-size: 22px;
+  padding: 5px 50px;
+}
+
+.totalPriceCart{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.cartUl{
+  list-style-type: none; /*remove the dot space of the list*/
+  padding: 2%;
+  margin-top: -4%;
+}
